@@ -2,6 +2,9 @@ import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import Root from "./routes/root";
 import Homepage from "./views/Homepage";
+import App from "./App";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -10,7 +13,11 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <App />,
+  },
+  {
+    path: "*",
+    element: <Homepage />,
   },
   {
     path: "/anasayfa",
@@ -20,6 +27,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    <Header />
     <RouterProvider router={router} />
   </React.StrictMode>
 );

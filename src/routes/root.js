@@ -5,7 +5,7 @@ export default function Root() {
           <h1>React Router Contacts</h1>
           <nav>
             <ul>
-              <li>
+              <li>  
                 <a href={`/anasayfa`}>anasayfa</a>
               </li>
               <li>
