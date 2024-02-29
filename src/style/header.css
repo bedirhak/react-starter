@@ -1,0 +1,34 @@
+.dk-header-container {
+    padding: 5px 0 0 0;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.dk-header-logo {
+    width: 275px;
+    height: 50px;
+    background-image: url(../assets/images/logoYatay.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dk-header-nav-links {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #0872BA;
+    color: white;
+    gap: 25px;
+    padding: 0;
+
+}
+
+.dk-header-nav-links a {
+    color: white;
+    padding: 5px;
+}

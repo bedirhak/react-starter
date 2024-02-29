@@ -1,0 +1,66 @@
+.aqk-container {
+    width: 1200px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.aqk-each {
+    width: calc((100% / 3 ) - 20px);
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    background-color: green;
+}
+
+.aqk-each:nth-of-type(1) {
+    background-color: #9A9C9B;
+}
+.aqk-each:nth-of-type(2) {
+    background-color: #1d9bd6;
+}
+.aqk-each:nth-of-type(3) {
+    background-color: #8CC543;
+}
+
+.aqk-each h2 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.aqk-each p {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.aqk-icons {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.aqk-icons-award {
+    font-size: 55px;
+}
+
+.aqk-link {
+    align-self: flex-start;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+.aqk-link:hover {
+    color: #0872BA;
+}

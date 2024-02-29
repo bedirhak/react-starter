@@ -1,0 +1,20 @@
+.hp-banner-container {
+    width: 1200px;
+    margin: 0 auto  30px auto;
+    background-color: #F5F3F4;
+    border-width:  1px 0;
+    padding: 10px;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 24px;
+    color: #C3C1C2;
+   
+}
+
+.hp-banner-container .hp-banner-icon {
+    font-size: 3rem;
+    color: #EF4424;
+}

@@ -2,18 +2,29 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import '../style/header.css';
 
 function BasicExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
+  
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+      <div className='dk-header-container'>
+        <div className='dk-header-logo'>
+
+        <Navbar.Brand href="#home">
+          <div className='dk-header-logo'></div>
+        </Navbar.Brand>
+        </div>
+        <div className='dk-header-nav'>
+          
+      
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto dk-header-nav-links">
             <Nav.Link href={`/anasayfa`}>Anasayfa</Nav.Link>
 
-            <NavDropdown title="Kurumsal" id="basic-nav-dropdown">
+            <NavDropdown title="Kurumsal" id="basic-nav-dropdown" >
               <NavDropdown.Item href="#action/3.1">Hakkımızda</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Tarihçe</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Kalite</NavDropdown.Item>
@@ -34,7 +45,10 @@ function BasicExample() {
             <Nav.Link href={`/contact`}>İletişim</Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        </div>
+      </div>
       </Container>
+
     </Navbar>
   );
 }
