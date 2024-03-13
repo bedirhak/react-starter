@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-starter/static/css/main.1d2d7a99.css",
-    "main.js": "/react-starter/static/js/main.a18b6d98.js",
+    "main.css": "/react-starter/static/css/main.bb883c92.css",
+    "main.js": "/react-starter/static/js/main.613afa3a.js",
     "static/media/mafsalIstafrozSample.png": "/react-starter/static/media/mafsalIstafrozSample.67ae1792ef7731327633.png",
     "static/media/homepageSliderImage1.png": "/react-starter/static/media/homepageSliderImage1.19afd6377b637a706de3.png",
     "static/media/homepageCollage.jpg": "/react-starter/static/media/homepageCollage.251820b62f409c9efa23.jpg",
     "static/media/logoYatay.png": "/react-starter/static/media/logoYatay.aa0d942d984a40466b48.png",
     "index.html": "/react-starter/index.html",
-    "main.1d2d7a99.css.map": "/react-starter/static/css/main.1d2d7a99.css.map",
-    "main.a18b6d98.js.map": "/react-starter/static/js/main.a18b6d98.js.map"
+    "main.bb883c92.css.map": "/react-starter/static/css/main.bb883c92.css.map",
+    "main.613afa3a.js.map": "/react-starter/static/js/main.613afa3a.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d2d7a99.css",
-    "static/js/main.a18b6d98.js"
+    "static/css/main.bb883c92.css",
+    "static/js/main.613afa3a.js"
   ]
 }
