@@ -1,5 +1,8 @@
 import { useState, useEffect } from "react";
 import "../style/customSlider.css";
+import { MdKeyboardArrowRight } from "react-icons/md";
+import { MdKeyboardArrowLeft } from "react-icons/md";
+
 
 function CustomCarousel({ children }) {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -94,7 +97,7 @@ function CustomCarousel({ children }) {
           slideNext();
         }}
       >
-        {">"}
+        {<MdKeyboardArrowRight className="dk-slider-arrows" />}
       </button>
       <button
         className="slider__btn-prev"
@@ -103,7 +106,7 @@ function CustomCarousel({ children }) {
           slidePrev();
         }}
       >
-        {"<"}
+        {<MdKeyboardArrowLeft className="dk-slider-arrows" />}
       </button>
     </div>
   );

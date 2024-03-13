@@ -22,7 +22,7 @@
   }
   
   .container__slider > button:active {
-    color: black;
+    color: #0872BA;
   }
   
   .slider__btn-next {
@@ -51,13 +51,13 @@
     outline: none;
     border: 0;
     background-color: white;
-    border: 1px solid grey;
+    border: 1px solid 0872BA;
     transition: background-color 1s ease;
     margin: 0 2px;
   }
   
   .container__slider__links-small-active {
-    background-color: black;
+    background-color: #0872BA;
   }
   
   .slider__item {
@@ -104,3 +104,13 @@
     height: auto;
   }
   
+  .dk-slider-arrows {
+    font-size: 4rem;
+    font-weight: 300;
+  }
+
+  .container__slider__links-small {
+    width: 40px;
+    height: 5px;
+    border-radius: 0;
+  }
