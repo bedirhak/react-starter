@@ -11,7 +11,8 @@
 .collage-background {
     width:100%;
     height: 100%;
-    background-image: url(../assets/images/homeBanner.jpg);
+    background-image: url(../assets/images/homepageCollage.jpg);
+    background-size: contain;
 }
 
 .collage-slogan {
