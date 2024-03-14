@@ -9,8 +9,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     background-color: black;
-
-    max-height: 70vh;
+    max-height: 75vh;
   }
   
   .container__slider > button {

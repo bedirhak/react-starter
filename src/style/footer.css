@@ -1,6 +1,6 @@
 .dk-footer-outer-container {
     max-width: 100vw;
-    background-color: #E4E4E4; /*#C6C6C6*/ /* main blue #1B69B3 */
+    background-color: #9A9C9B; /*#C6C6C6*/ /* main blue #1B69B3 */
 
 }
 
@@ -18,7 +18,7 @@ p,h6,ul,li {
     justify-content: flex-start;
     gap: 100px;
     padding: 20px 0;
-    color: gray;
+    color: white;
     font-weight: bold;
 }
 
@@ -31,7 +31,7 @@ p,h6,ul,li {
 }
 
 .dk-footer-email {
-    color: #0872BA;
+    color: white;
     
 }
 
@@ -51,6 +51,6 @@ p,h6,ul,li {
 }
 
 .dk-footer-products-links li a{
-    color: gray;
+    color: white;
     text-decoration: none;
 }
