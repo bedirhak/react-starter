@@ -20,3 +20,8 @@
 .slider-text-right {
     width: 40%;
 }
+
+.slider-text-container .slider-text-right {
+    border-radius: 15px;
+    overflow: hidden;
+}
