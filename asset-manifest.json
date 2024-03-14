@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/react-starter/static/css/main.bb883c92.css",
-    "main.js": "/react-starter/static/js/main.613afa3a.js",
+    "main.css": "/react-starter/static/css/main.5ac06a8d.css",
+    "main.js": "/react-starter/static/js/main.b3993270.js",
     "static/media/mafsalIstafrozSample.png": "/react-starter/static/media/mafsalIstafrozSample.67ae1792ef7731327633.png",
+    "static/media/hpSlider3.jpg": "/react-starter/static/media/hpSlider3.06f1ef43a35f91b74796.jpg",
     "static/media/homepageSliderImage1.png": "/react-starter/static/media/homepageSliderImage1.19afd6377b637a706de3.png",
+    "static/media/ssImage3.jpg": "/react-starter/static/media/ssImage3.fbc24e0036bd36ee9026.jpg",
+    "static/media/ssImage2.jpg": "/react-starter/static/media/ssImage2.5312577ed7dd636c14d0.jpg",
+    "static/media/ssImage1.jpg": "/react-starter/static/media/ssImage1.4da4a8fc2f07228058ea.jpg",
+    "static/media/ssImage4.jpg": "/react-starter/static/media/ssImage4.bbdd6b297cbcf651ef9b.jpg",
     "static/media/homepageCollage.jpg": "/react-starter/static/media/homepageCollage.251820b62f409c9efa23.jpg",
+    "static/media/hpSlider2.jpg": "/react-starter/static/media/hpSlider2.90df676d66c7f28b842e.jpg",
+    "static/media/hpSlider1.jpg": "/react-starter/static/media/hpSlider1.309646d030e4fc435ee9.jpg",
     "static/media/logoYatay.png": "/react-starter/static/media/logoYatay.aa0d942d984a40466b48.png",
     "index.html": "/react-starter/index.html",
-    "main.bb883c92.css.map": "/react-starter/static/css/main.bb883c92.css.map",
-    "main.613afa3a.js.map": "/react-starter/static/js/main.613afa3a.js.map"
+    "main.5ac06a8d.css.map": "/react-starter/static/css/main.5ac06a8d.css.map",
+    "main.b3993270.js.map": "/react-starter/static/js/main.b3993270.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb883c92.css",
-    "static/js/main.613afa3a.js"
+    "static/css/main.5ac06a8d.css",
+    "static/js/main.b3993270.js"
   ]
 }
