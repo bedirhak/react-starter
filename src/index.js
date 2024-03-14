@@ -3,7 +3,7 @@ import * as ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Homepage from "./views/Homepage";
-import About from "./views/Homepage"; // Assuming this is intended to be a different component
+import About from "./views/Aboutpage"; // Assuming this is intended to be a different component
 import App from "./App";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/normalization.css';
