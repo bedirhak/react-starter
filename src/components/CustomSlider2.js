@@ -88,7 +88,7 @@ function CustomCarousel({ imagesData, children }) {
                   ? "container__slider__links-small container__slider__links-small-active"
                   : "container__slider__links-small"
                 }
-                onClick={(e) => {
+                onMouseEnter={(e) => {
                   e.preventDefault();
                   setActiveIndex(index);
                 }}
