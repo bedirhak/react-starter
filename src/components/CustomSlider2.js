@@ -4,10 +4,15 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 
 
-function CustomCarousel({ children }) {
+function CustomCarousel({ imagesData, children }) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [slideDone, setSlideDone] = useState(true);
   const [timeID, setTimeID] = useState(null);
+
+  useEffect(() => {
+    console.log("bedirhan");
+    console.log("Hello" + imagesData[0]);
+  }, [imagesData]); 
 
   useEffect(() => {
     if (slideDone) {
@@ -72,42 +77,51 @@ function CustomCarousel({ children }) {
       })}
 
       <div className="container__slider__links">
+        <div className="dk-date-slider-line"></div>
         {children.map((item, index) => {
           return (
-            <button
-              key={index}
-              className={
-                activeIndex === index
+            <div className="dk-date-slider-container">
+              <button
+                key={index}
+                className={
+                  activeIndex === index
                   ? "container__slider__links-small container__slider__links-small-active"
                   : "container__slider__links-small"
-              }
-              onClick={(e) => {
-                e.preventDefault();
-                setActiveIndex(index);
-              }}
-            ></button>
+                }
+                onMouseEnter={(e) => {
+                  e.preventDefault();
+                  setActiveIndex(index);
+                }}
+              ></button>
+              <div className="dk-date-slider-dot">{imagesData && (imagesData[index]?.imgDate)}</div>
+
+            </div>
           );
         })}
       </div>
 
-      <button
-        className="slider__btn-next"
-        onClick={(e) => {
-          e.preventDefault();
-          slideNext();
-        }}
-      >
-        {<MdKeyboardArrowRight className="dk-slider-arrows" />}
-      </button>
-      <button
-        className="slider__btn-prev"
-        onClick={(e) => {
-          e.preventDefault();
-          slidePrev();
-        }}
-      >
-        {<MdKeyboardArrowLeft className="dk-slider-arrows" />}
-      </button>
+        <div className="dk-date-slider-arrows-container"> 
+          <div className="dk-date-slider-arrows">
+            <button
+              className="slider__btn-next"
+              onClick={(e) => {
+                e.preventDefault();
+                slideNext();
+              }}
+              >
+              {<MdKeyboardArrowRight className="dk-slider-arrows" />}
+            </button>
+            <button
+              className="slider__btn-prev"
+              onClick={(e) => {
+                e.preventDefault();
+                slidePrev();
+              }}
+              >
+              {<MdKeyboardArrowLeft className="dk-slider-arrows" />}
+            </button>
+          </div>
+        </div>
     </div>
   );
 }

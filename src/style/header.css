@@ -26,7 +26,7 @@
 
 .dk-header-top-container {
     width: 1200px;
-    margin: 0 auto;
+    margin: 12.5px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,7 +78,7 @@ nav.dk-nav-element {
     background-color: #0872BA;
     color: white;
     gap: 25px;
-    padding: 0;
+    padding: 5px;
 
 }
 
