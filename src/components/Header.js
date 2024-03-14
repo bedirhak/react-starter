@@ -30,7 +30,7 @@ function BasicExample() {
                 <Nav.Link href={`/anasayfa`}>Anasayfa</Nav.Link>
 
                 <NavDropdown title="Kurumsal" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">
+                  <NavDropdown.Item href={`/hakkımızda`}>
                     Hakkımızda
                   </NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">

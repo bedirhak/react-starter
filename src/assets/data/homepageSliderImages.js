@@ -1,5 +1,3 @@
-import constantImages from "../images/homepageSliderImage1.png";
-import mafsal from "../images/mafsalIstafrozSample.png";
 import hpSliderImage1 from "../images/hpSlider1.jpg";
 import hpSliderImage2 from "../images/hpSlider2.jpg";
 import hpSliderImage3 from "../images/hpSlider3.jpg";
@@ -47,6 +45,25 @@ const homepageTopSliderImages = [
     },
 
   ];
+
+  const aboutTopSliderImages = [
+    {
+      imgURL: hpSliderImage1,
+      imgAlt: "img-1"
+    },
+    {
+      imgURL: hpSliderImage2,
+      imgAlt: "img-2"
+    },
+    {
+      imgURL: hpSliderImage3,
+      imgAlt: "img-3"
+    },
+    {
+      imgURL: hpSliderImage1,
+      imgAlt: "img-2"
+    },
+  ];
   
-  export { homepageTopSliderImages, homepageSecondSliderImages };
+  export { homepageTopSliderImages, homepageSecondSliderImages, aboutTopSliderImages };
   
